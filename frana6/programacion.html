@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es,en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Caompatible" content="ie=edge">
+	<title>franalyst</title>
+	<link rel="stylesheet" href="style/estilo.css">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<img src="img/lg-removebg-preview.png">
+			</div>
+			<nav class="menu">
+				<a href="franalyst.html">Inicio</a>
+				<a href="#">Nosotros</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="portafolio.html">portafolio</a>
+			<a href="#">Servicios</a>
+			<a href="https://www.facebook.com/profile.php?id=100089765560939" target="_blank">Facebook</a>
+			<a href="https://www.instagram.com/franalystweb/" target="_blank">Instagram</a>
+			<a href="https://github.com/" target="_blank">Github</a>
+			<a href="https://api.whatsapp.com/send?phone=+584128637453&text=Hola%21%20Quisiera%20más%20información%20sobre%20franalyst" target="
+			">Whatsapp</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+	
+</div>
+	<div class="crea_tu_codigo">
+	<h1>Crea tu primera pagina web</h1>
+	</div>
+	
+		<div class="codigo" id="codigo">
+			<textarea rows="20" cols="50" onkeyup="actualizar()" class="texto__ingresado" id="texto__ingresado" placeholder="Escribe tu codigo aqui"></textarea>
+			<iframe class="editor" id="editor" srcdoc="resultado aqui"></iframe>
+	</div>
+	
+	<div class="contenedor__html">
+	<div class="html">
+		<h2 class="title__html">HTML5 y sus funciones</h2>
+		<h3 class="etiquetas" id="etiquetas">ETIQUETAS INICIALES O DE RAÍZ</h3>
+		<ul>
+			<li><strong>&lt;!DOCTYPE&nbsp;html&gt;</strong>"Indica al navegador que el documento está basado en el estándar HTML5."
+				</li>
+			
+			<li><strong>&lt;html&gt; &lt;/html&gt;</strong>"Indica al navegador que el documento está basado en el estándar HTML5&lt;html>  &lt;/html> Representa la raíz de un documento HTML. Todos los demás elementos de la estructura HTML deben ser recogidos dentro de estas etiquetas."
+			</li>
+			
+			<h3 class="etiquetas" id="etiquetas">METADATOS DEL DOCUMENTO</h3>
+			<li><strong>&lt;head&gt; &lt;/head&gt;</strong>Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo. El resto de etiquetas de metadatos, irán recogidas dentro de las etiquetas de apertura y cierre del head. Importante explicar que estos metadatos del documento, es información para el navegador y no contenido que será visible en la página web. A excepción de la etiqueta &lt;title> que veremos a continuación.</li>
+		</ul>
+	</div>
+	</div>
+	<script>
+	const actualizar = () =>{
+	const texto__ingresado = document.getElementById("texto__ingresado");
+	const editor = document.getElementById("editor");
+	editor.srcdoc = texto__ingresado.value;
+}
+	</script>
+</body>
+</html>

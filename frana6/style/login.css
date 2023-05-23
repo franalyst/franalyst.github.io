@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+@import url("https//fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;500;600;700;800;900&family=space+grotesk:wght@300;400;500;600;700&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+@media screen and (min-width:420px){	
+body{
+	background-image: url(../fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:10vh;
+}
+
+
+from{
+	display: block;
+	width: 25%;
+	height:17rem;
+	margin: 180px 500px 300px 450px;
+	text-align: center;
+	align-content: center;
+	background-color:rgba(75, 0, 130,.4);
+	position: absolute;
+	border-radius: 15px;
+}
+
+h1{
+	color: black;
+	margin:20px 10px 40px 20px;
+	text-align: center;
+	align-content: center;
+	text-shadow: 1px 0px 3px black;
+}
+
+#usuario{
+	border-radius: 5px;
+	border:none;
+	background:none;
+	outline: none;
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+}
+
+#usuario:hover{
+	transform:translateY(-20%);
+	color: black;
+	transition: all 100ms ease;
+	border: 2px solid black;
+	background:rgb(255,255,255,.5);
+	padding: 10px;
+}
+
+#clave{
+	border-radius: 5px;
+	border:none;
+	background:none;
+	outline: none;
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+}
+
+#clave:hover{
+	transform:translateY(-20%);
+	color:black;
+	transition: all 100ms ease;
+	border: 2px solid black;
+	background:rgb(255,255,255,.5);
+	padding: 10px;
+}
+
+#button{
+	margin: 15px 0px 15px 0px;
+	border-radius: 10px;
+	background-color:#DA70D6;
+	box-shadow: 1px 0px 3px rgba(255,255,255,.8);
+	width: 50%;
+	padding: 5px;
+}
+}
+
+@media screen and (max-width:419px){
+	body{
+	background-image: url(../fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+from{
+	display: block;
+	width: 50%;
+	margin:150px 50px 20px 50px;
+	text-align: center;
+	align-content: center;
+	background-color:rgba(75, 0, 130,.4);
+	position: absolute;
+	border-radius: 15px;
+}
+
+h1{
+	color: black;
+	margin:20px 10px 40px 20px;
+	text-align: center;
+	align-content: center;
+	text-shadow: 1px 0px 3px black;
+}
+
+#usuario{
+	border-radius: 5px;
+	border:none;
+	background:none;
+	outline: none;
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+}
+
+#usuario:hover{
+	transform:translateY(-20%);
+	color: black;
+	transition: all 100ms ease;
+	border: 2px solid black;
+	background:rgb(255,255,255,.5);
+	padding: 10px;
+}
+
+#clave{
+	border-radius: 5px;
+	border:none;
+	background:none;
+	outline: none;
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+}
+
+#clave:hover{
+	transform:translateY(-20%);
+	color:black;
+	transition: all 100ms ease;
+	border: 2px solid black;
+	background:rgb(255,255,255,.5);
+	padding: 10px;
+}
+
+#button{
+	margin: 15px 0px 15px 0px;
+	border-radius: 10px;
+	background-color:#DA70D6;
+	box-shadow: 1px 0px 3px rgba(255,255,255,.8);
+	width: 50%;
+	padding: 5px;
+}
+}
